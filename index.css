@@ -1,0 +1,39 @@
+body{
+    /* background-image: url("./image4.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:top;
+    background-position-x: center; */
+ 
+}
+.header{
+    text-align: center;
+}
+.profilepic{
+border-radius: 3px;
+height: 150px;
+width: 150px;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+}
+div>div{
+font-size:x-large;
+text-align: left;
+transition-duration: 1s;
+}
+h3{
+    font-family: 'Bold';
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+div>div:hover{
+background: lightgrey;
+text-shadow: 1px 0px;
+box-shadow: 5px 5px 2px 2px;
+}
