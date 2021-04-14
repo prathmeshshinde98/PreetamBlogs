@@ -1,15 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 body{
     /* background-image: url("./image4.jpg");
     background-repeat: no-repeat;
     background-size:contain;
     background-position:top;
     background-position-x: center; */
-    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(26,78,75,0.5665616588432247) 100%);
-    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(0,176,166,0.5665616588432247) 100%);
-    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(5,121,114,0.5665616588432247) 100%);
-    background: linear-gradient(21deg, rgba(3,127,186,0.7402311266303396) 0%, rgba(131,221,50,1) 100%);
-
-
+    background: linear-gradient(21deg, rgba(3,127,186,0.7402311266303396) 0%, rgba(115,196,43,1) 100%);
 
     color: white;
 }
@@ -28,16 +24,17 @@ width: 150px;
     width: 50vw;
 }
 div>div{
+ font-family: 'Oswald', sans-serif;
 font-size:x-large;
 text-align: justify;
 transition-duration: 1s;
 }
-div>h3{
-    font-family: 'Bold';
+h3{
+    /* font-family: 'Oswald', sans-serif; */
     text-align: center;
 }
-div>h1  {
-
+h1  {
+    /* font-family: 'Oswald', sans-serif; */
     font-weight: bold;
     text-align: center;
     align-items: center;
