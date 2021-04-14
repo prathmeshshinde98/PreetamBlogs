@@ -4,7 +4,11 @@ body{
     background-size:contain;
     background-position:top;
     background-position-x: center; */
- 
+    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(26,78,75,0.5665616588432247) 100%);
+    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(0,176,166,0.5665616588432247) 100%);
+    background: linear-gradient(21deg, rgba(161,23,23,1) 0%, rgba(5,121,114,0.5665616588432247) 100%);
+
+    color: white;
 }
 .header{
     text-align: center;
@@ -35,8 +39,8 @@ div>h1  {
     text-align: center;
     align-items: center;
 }
-div>div:hover{
-background: lightgrey;
-text-shadow: 1px 0px;
-box-shadow: 5px 5px 2px 2px;
-}
+/* div>div:hover{ */
+/* background: lightgrey; */
+/* text-shadow: 1px 0px; */
+/* box-shadow: 5px 5px 2px 2px red; */
+/* } */
