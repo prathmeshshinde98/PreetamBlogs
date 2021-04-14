@@ -18,19 +18,20 @@ width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50vw;
+    width: auto;
 }
 div>div{
 font-size:x-large;
-text-align: left;
+text-align: justify;
 transition-duration: 1s;
 }
-h3{
+div>h3{
     font-family: 'Bold';
     text-align: center;
 }
-h2{
+div>h2{
     text-align: center;
+    align-items: center;
 }
 div>div:hover{
 background: lightgrey;
