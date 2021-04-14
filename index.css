@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 body{
-    background: linear-gradient(21deg, rgba(3,127,186,0.7402311266303396) 0%, rgba(49,156,113,1) 66%, rgba(104,189,28,1) 100%);
+    background: rgb(3,127,186);
+    background: linear-gradient(21deg, rgba(3,127,186,0.7402311266303396) 0%, rgba(49,156,113,1) 66%, rgba(226,88,8,1) 100%);
 
     color: white;
 }
@@ -31,4 +32,11 @@ h1  {
     font-weight: bold;
     text-align: center;
     align-items: center;
+}
+footer{
+    font-weight: 500;
+    color: #000;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
